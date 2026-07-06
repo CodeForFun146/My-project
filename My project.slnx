@@ -1,4 +1,6 @@
 ﻿<Solution>
+  <Project Path="JBooth.MicroSplat.Core.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="JBooth.MicroSplat.Core.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>
