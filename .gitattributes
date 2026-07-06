@@ -146,5 +146,4 @@ Packages/packages-lock.json linguist-generated
 *.rns                   lfs
 # Spine export file for Unity
 *.skel.bytes            lfs
-# Exceptions for .asset files such as lightning pre-baking
-LightingData.asset     binary
+LightingData.asset     filter=lfs diff=lfs merge=lfs -text
